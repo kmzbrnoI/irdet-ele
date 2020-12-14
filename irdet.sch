@@ -15540,18 +15540,6 @@ Jan Horáček</text>
 <pinref part="T1" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="IOPOW1-2" class="0">
-<segment>
-<pinref part="T1" gate="G$1" pin="B"/>
-<wire x1="175.26" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
-<label x="172.72" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="220.98" y1="187.96" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
-<label x="223.52" y="187.96" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="T4" gate="G$1" pin="B"/>
@@ -15594,7 +15582,7 @@ Jan Horáček</text>
 <pinref part="T7" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="IOPOW7-8" class="0">
+<net name="CPUPOW7-8" class="0">
 <segment>
 <pinref part="T7" gate="G$1" pin="B"/>
 <wire x1="175.26" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
@@ -15606,7 +15594,7 @@ Jan Horáček</text>
 <label x="165.1" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="IOPOW5-6" class="0">
+<net name="CPUPOW5-6" class="0">
 <segment>
 <pinref part="T5" gate="G$1" pin="B"/>
 <wire x1="175.26" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
@@ -15618,7 +15606,7 @@ Jan Horáček</text>
 <label x="223.52" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="IOPOW3-4" class="0">
+<net name="CPUPOW3-4" class="0">
 <segment>
 <pinref part="T3" gate="G$1" pin="B"/>
 <wire x1="175.26" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
@@ -15649,6 +15637,18 @@ Jan Horáček</text>
 <pinref part="T4" gate="G$1" pin="E"/>
 <wire x1="215.9" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
 <junction x="215.9" y="83.82"/>
+</segment>
+</net>
+<net name="CPUPOW1-2" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="B"/>
+<wire x1="175.26" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<label x="172.72" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="220.98" y1="187.96" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
+<label x="223.52" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
