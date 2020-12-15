@@ -14154,9 +14154,9 @@ Jan Horáček</text>
 <instance part="GND2" gate="1" x="213.36" y="137.16" smashed="yes">
 <attribute name="VALUE" x="210.82" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="223.52" y="147.32" smashed="yes">
-<attribute name="NAME" x="225.044" y="147.701" size="1.778" layer="95"/>
-<attribute name="VALUE" x="225.044" y="142.621" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="228.6" y="147.32" smashed="yes">
+<attribute name="NAME" x="230.124" y="147.701" size="1.778" layer="95"/>
+<attribute name="VALUE" x="230.124" y="142.621" size="1.778" layer="96"/>
 </instance>
 <instance part="X1" gate="-1" x="27.94" y="231.14" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.876" y="230.378" size="1.778" layer="95" rot="MR0"/>
@@ -14629,7 +14629,7 @@ Jan Horáček</text>
 <wire x1="213.36" y1="144.78" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="142.24" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
 <junction x="213.36" y="142.24"/>
 </segment>
 <segment>
@@ -14780,13 +14780,6 @@ Jan Horáček</text>
 <label x="180.34" y="147.32" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="ISP1" gate="G$1" pin="MOSI"/>
-<wire x1="210.82" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
-<label x="213.36" y="147.32" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="+5V" class="3">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -14827,7 +14820,7 @@ Jan Horáček</text>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="213.36" y1="149.86" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="149.86" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <junction x="213.36" y="149.86"/>
 </segment>
 <segment>
@@ -15661,6 +15654,11 @@ Jan Horáček</text>
 <wire x1="76.2" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
 <junction x="76.2" y="30.48"/>
 <label x="86.36" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ISP1" gate="G$1" pin="MOSI"/>
+<wire x1="210.82" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
+<label x="213.36" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
