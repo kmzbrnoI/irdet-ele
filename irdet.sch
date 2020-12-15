@@ -14105,7 +14105,7 @@ Based on the following sources:
 <sheet>
 <plain>
 <text x="289.56" y="17.78" size="5.08" layer="97">IR detector</text>
-<text x="344.17" y="20.32" size="2.54" layer="97">v1.0</text>
+<text x="344.17" y="20.32" size="2.54" layer="97">v1.1</text>
 <text x="289.56" y="8.89" size="2.54" layer="97">KMŽ Brno I, LRKV MENDELU
 Jan Horáček</text>
 </plain>
@@ -14782,11 +14782,6 @@ Jan Horáček</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB3(MOSI/OC2)"/>
-<wire x1="220.98" y1="180.34" x2="223.52" y2="180.34" width="0.1524" layer="91"/>
-<label x="223.52" y="180.34" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="ISP1" gate="G$1" pin="MOSI"/>
 <wire x1="210.82" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
 <label x="213.36" y="147.32" size="1.27" layer="95" xref="yes"/>
@@ -15128,22 +15123,6 @@ Jan Horáček</text>
 <label x="223.52" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="IN7" class="0">
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="RN4" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="30.48" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
-<junction x="76.2" y="30.48"/>
-<label x="86.36" y="30.48" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="ADC6"/>
-<wire x1="220.98" y1="218.44" x2="223.52" y2="218.44" width="0.1524" layer="91"/>
-<label x="223.52" y="218.44" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="IN8" class="0">
 <segment>
 <pinref part="RN4" gate="G$1" pin="1"/>
@@ -15155,9 +15134,9 @@ Jan Horáček</text>
 <label x="86.36" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="ADC7"/>
-<wire x1="220.98" y1="215.9" x2="223.52" y2="215.9" width="0.1524" layer="91"/>
-<label x="223.52" y="215.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<wire x1="172.72" y1="210.82" x2="165.1" y2="210.82" width="0.1524" layer="91"/>
+<label x="165.1" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="POW5-6" class="0">
@@ -15666,6 +15645,22 @@ Jan Horáček</text>
 <pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
 <wire x1="220.98" y1="187.96" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
 <label x="223.52" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOSI/IN7" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<wire x1="220.98" y1="180.34" x2="223.52" y2="180.34" width="0.1524" layer="91"/>
+<label x="223.52" y="180.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="RN4" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="30.48" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
+<junction x="76.2" y="30.48"/>
+<label x="86.36" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
