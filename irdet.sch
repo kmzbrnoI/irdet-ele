@@ -15525,9 +15525,9 @@ Jan Horáček</text>
 <label x="172.72" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC1(ADC1)"/>
-<wire x1="220.98" y1="231.14" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
-<label x="223.52" y="231.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
+<wire x1="220.98" y1="233.68" x2="223.52" y2="233.68" width="0.1524" layer="91"/>
+<label x="223.52" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -15558,9 +15558,9 @@ Jan Horáček</text>
 <label x="172.72" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
-<wire x1="220.98" y1="233.68" x2="223.52" y2="233.68" width="0.1524" layer="91"/>
-<label x="223.52" y="233.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="PC1(ADC1)"/>
+<wire x1="220.98" y1="231.14" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
+<label x="223.52" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
