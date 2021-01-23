@@ -192,8 +192,8 @@
 <text x="47.625" y="37.465" size="1.27" layer="25">⏚</text>
 <text x="25.4" y="11.43" size="2.54" layer="25" align="bottom-center">IR detector</text>
 <text x="25.4" y="9.2075" size="1.27" layer="25" align="bottom-center">KMŽ Brno I, LRKV MENDELU</text>
-<text x="36.195" y="6.985" size="1.27" layer="25" align="bottom-right">JH 2020</text>
-<text x="14.605" y="6.985" size="1.27" layer="25">v1.0</text>
+<text x="36.195" y="6.985" size="1.27" layer="25" align="bottom-right">JH 2021</text>
+<text x="14.605" y="6.985" size="1.27" layer="25">v1.1</text>
 <text x="42.545" y="27.94" size="1.27" layer="25" rot="R90">⏚</text>
 <text x="37.465" y="27.94" size="0.8128" layer="25" rot="R90">VCC</text>
 <text x="39.6875" y="27.94" size="0.8128" layer="25" rot="R90">MOSI</text>
@@ -2358,9 +2358,9 @@ Various connectors from GM and SOS
 <attribute name="NAME" x="46.0375" y="35.56" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="46.0375" y="35.56" size="1.016" layer="28" rot="MR90"/>
 </element>
-<element name="C16" library="rcl" package="C0805" value="22u" x="13.97" y="28.8925" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.9225" y="27.6225" size="1.016" layer="25" rot="R180"/>
-<attribute name="VALUE" x="15.24" y="27.94" size="1.016" layer="27" rot="R180"/>
+<element name="C16" library="rcl" package="C0805" value="22u" x="14.9225" y="26.035" smashed="yes" rot="MR270">
+<attribute name="NAME" x="14.605" y="24.13" size="1.016" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="13.97" y="27.305" size="1.016" layer="28" rot="MR270"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="100n" x="32.385" y="27.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="33.02" y="31.4325" size="1.016" layer="26" rot="MR270"/>
@@ -2537,7 +2537,7 @@ Various connectors from GM and SOS
 <attribute name="VALUE" x="31.115" y="35.8775" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="rcl" package="R0805" value="2k2" x="12.065" y="26.9875" smashed="yes" rot="MR270">
-<attribute name="NAME" x="14.2875" y="27.94" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="11.43" y="29.845" size="1.016" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="11.7475" y="29.845" size="1.016" layer="28" rot="MR180"/>
 </element>
 <element name="R3" library="rcl" package="R0805" value="1k" x="28.575" y="17.78" smashed="yes" rot="MR270">
@@ -2847,10 +2847,10 @@ Various connectors from GM and SOS
 <wire x1="7.46125" y1="33.090475" x2="8.255" y2="32.296725" width="0.4064" layer="1"/>
 <wire x1="8.255" y1="27.305" x2="8.5725" y2="26.9875" width="0.4064" layer="1"/>
 <via x="8.5725" y="26.9875" extent="1-16" drill="0.4" diameter="0.6"/>
-<wire x1="13.6525" y1="26.9875" x2="14.605" y2="26.035" width="0.4064" layer="16"/>
-<wire x1="14.605" y1="26.035" x2="15.5575" y2="26.035" width="0.4064" layer="16"/>
+<wire x1="13.0175" y1="26.9875" x2="13.97" y2="26.035" width="0.4064" layer="16"/>
+<wire x1="13.97" y1="26.035" x2="15.5575" y2="26.035" width="0.4064" layer="16"/>
 <via x="15.5575" y="26.035" extent="1-16" drill="0.4" diameter="0.6"/>
-<wire x1="8.5725" y1="26.9875" x2="13.6525" y2="26.9875" width="0.4064" layer="16"/>
+<wire x1="8.5725" y1="26.9875" x2="13.0175" y2="26.9875" width="0.4064" layer="16"/>
 <wire x1="15.5575" y1="26.035" x2="16.98625" y2="24.60625" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$57">
@@ -3241,12 +3241,14 @@ Various connectors from GM and SOS
 <wire x1="10.719" y1="21.684" x2="10.795" y2="21.76" width="0.8128" layer="16"/>
 <wire x1="12.7" y1="23.7875" x2="12.7" y2="20.955" width="0.8128" layer="1"/>
 <via x="12.7" y="20.955" extent="1-16" drill="0.6" diameter="1.2"/>
-<wire x1="14.605" y1="30.785" x2="15.047" y2="30.343" width="0.8128" layer="1"/>
-<wire x1="15.047" y1="30.343" x2="15.047" y2="28.8925" width="0.8128" layer="1"/>
-<wire x1="12.7" y1="23.7875" x2="12.7" y2="25.4" width="0.8128" layer="1"/>
-<wire x1="15.047" y1="27.747" x2="15.047" y2="28.8925" width="0.8128" layer="1"/>
-<wire x1="12.7" y1="25.4" x2="15.047" y2="27.747" width="0.8128" layer="1"/>
+<wire x1="12.7" y1="23.7875" x2="12.7" y2="26.67" width="0.8128" layer="1"/>
 <wire x1="12.7" y1="20.955" x2="10.719" y2="20.955" width="0.8128" layer="16"/>
+<wire x1="14.605" y1="30.785" x2="14.605" y2="28.2575" width="0.8128" layer="1"/>
+<wire x1="14.605" y1="28.2575" x2="14.2875" y2="28.2575" width="0.8128" layer="1"/>
+<wire x1="14.2875" y1="28.2575" x2="12.7" y2="26.67" width="0.8128" layer="1"/>
+<wire x1="14.9225" y1="27.112" x2="14.9225" y2="27.94" width="0.8128" layer="16"/>
+<wire x1="14.9225" y1="27.94" x2="14.605" y2="28.2575" width="0.8128" layer="16"/>
+<via x="14.605" y="28.2575" extent="1-16" drill="0.4" diameter="0.9"/>
 </signal>
 <signal name="N$13">
 <contactref element="T2" pad="B"/>
