@@ -6813,29 +6813,29 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 Various connectors from GM and SOS
 &lt;p&gt;&lt;author&gt;Created by Michal Petrilak&lt;/author&gt;</description>
 <packages>
-<package name="ARK500/2">
-<wire x1="-2.5" y1="4" x2="-2.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3" x2="-2.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="7.5" y1="4" x2="7.5" y2="3" width="0.127" layer="21"/>
-<wire x1="7.5" y1="3" x2="7.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-2" x2="7.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="4" x2="7.5" y2="4" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-3.5" x2="6" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="6" y1="-3.5" x2="4" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-3.5" x2="1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="1" y1="-3.5" x2="-1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="-3.5" x2="-2.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-1" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1" y1="-2" x2="1" y2="-2" width="0.127" layer="21"/>
-<wire x1="1" y1="-2" x2="4" y2="-2" width="0.127" layer="21"/>
-<wire x1="4" y1="-2" x2="6" y2="-2" width="0.127" layer="21"/>
-<wire x1="6" y1="-2" x2="7.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3" x2="7.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-1" y1="-2" x2="-1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="1" y1="-2" x2="1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-2" x2="4" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="6" y1="-2" x2="6" y2="-3.5" width="0.127" layer="21"/>
+<package name="MVE252-5-V">
+<wire x1="-2.5" y1="4.381" x2="-2.5" y2="3.381" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3.381" x2="-2.5" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.889" x2="-2.5" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="7.5" y1="4.381" x2="7.5" y2="3.381" width="0.127" layer="21"/>
+<wire x1="7.5" y1="3.381" x2="7.5" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-2.889" x2="7.5" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="4.381" x2="7.5" y2="4.381" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-4.389" x2="6" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="6" y1="-4.389" x2="4" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.389" x2="1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="1" y1="-4.389" x2="-1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="-1" y1="-4.389" x2="-2.5" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.889" x2="-1" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.889" x2="1" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="1" y1="-2.889" x2="4" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.889" x2="6" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="6" y1="-2.889" x2="7.5" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3.381" x2="7.5" y2="3.381" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.889" x2="-1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="1" y1="-2.889" x2="1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.889" x2="4" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="6" y1="-2.889" x2="6" y2="-4.389" width="0.127" layer="21"/>
 <pad name="1" x="0" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
 <pad name="2" x="5" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
 </package>
@@ -6849,13 +6849,13 @@ Various connectors from GM and SOS
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ARK500/2" prefix="X">
+<deviceset name="MVE252-5-V">
 <gates>
-<gate name="-1" symbol="ARK2" x="0" y="2.54" addlevel="must" swaplevel="1"/>
-<gate name="-2" symbol="ARK2" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-1" symbol="ARK2" x="2.54" y="0"/>
+<gate name="-2" symbol="ARK2" x="2.54" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="ARK500/2">
+<device name="" package="MVE252-5-V">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
@@ -14008,7 +14008,7 @@ Based on the following sources:
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5V"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X1" library="con-malina" deviceset="ARK500/2" device=""/>
+<part name="X1" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="22u"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="22u"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -14103,13 +14103,13 @@ Based on the following sources:
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="22u"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X2" library="con-malina" deviceset="ARK500/2" device=""/>
+<part name="X2" library="con-malina" deviceset="MVE252-5-V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="289.56" y="17.78" size="5.08" layer="97">IR detector</text>
-<text x="344.17" y="20.32" size="2.54" layer="97">v1.1</text>
+<text x="344.17" y="20.32" size="2.54" layer="97">v1.2</text>
 <text x="289.56" y="8.89" size="2.54" layer="97">KMŽ Brno I, LRKV MENDELU
 Jan Horáček</text>
 </plain>
