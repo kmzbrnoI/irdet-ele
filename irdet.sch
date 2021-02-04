@@ -13998,57 +13998,109 @@ Based on the following sources:
 </class>
 </classes>
 <parts>
-<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA8" device="-AI" package3d_urn="urn:adsk.eagle:package:4313/2"/>
+<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA8" device="-AI" package3d_urn="urn:adsk.eagle:package:4313/2">
+<attribute name="LCSC_PART" value="C14877"/>
+</part>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5V"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ISP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
 <part name="J1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k">
+<attribute name="LCSC_PART" value="C17414"/>
+</part>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5V"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X1" library="con-malina" deviceset="MVE252-5-V" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="22u"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="22u"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="22u">
+<attribute name="LCSC_PART" value="C45783"/>
+</part>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="22u">
+<attribute name="LCSC_PART" value="C45783"/>
+</part>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="F1" library="adafruit_edited" deviceset="PTCFUSE" device="-0805" value="200mA"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
+<attribute name="LCSC_PART" value="C17520"/>
+</part>
 <part name="TH3" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BZX84C18"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78L*" device="F" package3d_urn="urn:adsk.eagle:package:16478/2" technology="05"/>
+<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78L*" device="F" package3d_urn="urn:adsk.eagle:package:16478/2" technology="05">
+<attribute name="LCSC_PART" value="C71136"/>
+</part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
+<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
 <part name="J2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="J3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
+<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
 <part name="J4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100n">
+<attribute name="LCSC_PART" value="C49478"/>
+</part>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
@@ -14057,13 +14109,25 @@ Based on the following sources:
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="SM4007PL"/>
-<part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" value="TLP292"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="SM4007PL">
+<attribute name="LCSC_PART" value="C64898"/>
+</part>
+<part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" value="TLP292">
+<attribute name="LCSC_PART" value="C95713"/>
+</part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
@@ -14072,7 +14136,9 @@ Based on the following sources:
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" value="TLP292"/>
+<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" value="TLP292">
+<attribute name="LCSC_PART" value="C95713"/>
+</part>
 <part name="J5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-09" device="05-7098" package3d_urn="urn:adsk.eagle:package:8078658/1"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
@@ -14101,7 +14167,9 @@ Based on the following sources:
 <part name="T8" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-PNP-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC807-16" value="S9012"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="22u"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="22u">
+<attribute name="LCSC_PART" value="C45783"/>
+</part>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="con-malina" deviceset="MVE252-5-V" device=""/>
 </parts>
@@ -14117,6 +14185,7 @@ Jan Horáček</text>
 <instance part="IC1" gate="G$1" x="195.58" y="208.28" smashed="yes">
 <attribute name="NAME" x="177.8" y="170.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="237.49" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="195.58" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="1" x="167.64" y="246.38" smashed="yes">
 <attribute name="VALUE" x="165.1" y="243.84" size="1.778" layer="96" rot="R90"/>
@@ -14143,14 +14212,17 @@ Jan Horáček</text>
 <instance part="C1" gate="G$1" x="157.48" y="200.66" smashed="yes">
 <attribute name="NAME" x="159.004" y="201.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="159.004" y="195.961" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="157.48" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="160.02" y="238.76" smashed="yes">
 <attribute name="NAME" x="156.21" y="240.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="235.458" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="160.02" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="147.32" y="200.66" smashed="yes">
 <attribute name="NAME" x="148.844" y="201.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.844" y="195.961" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="147.32" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+2" gate="1" x="213.36" y="154.94" smashed="yes">
 <attribute name="VALUE" x="210.82" y="152.4" size="1.778" layer="96" rot="R90"/>
@@ -14167,10 +14239,12 @@ Jan Horáček</text>
 <instance part="C7" gate="G$1" x="91.44" y="223.52" smashed="yes">
 <attribute name="NAME" x="92.964" y="223.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.964" y="218.821" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="91.44" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="119.38" y="223.52" smashed="yes">
 <attribute name="NAME" x="120.904" y="223.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="120.904" y="218.821" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="119.38" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+7" gate="1" x="119.38" y="238.76" smashed="yes">
 <attribute name="VALUE" x="116.84" y="233.68" size="1.778" layer="96" rot="R90"/>
@@ -14188,10 +14262,12 @@ Jan Horáček</text>
 <instance part="C12" gate="G$1" x="48.26" y="223.52" smashed="yes">
 <attribute name="NAME" x="49.784" y="223.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="49.784" y="218.821" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="48.26" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="58.42" y="213.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.9214" y="209.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="61.722" y="209.55" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="58.42" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TH3" gate="G$1" x="76.2" y="223.52" smashed="yes">
 <attribute name="NAME" x="78.74" y="223.52" size="1.778" layer="95"/>
@@ -14200,6 +14276,7 @@ Jan Horáček</text>
 <instance part="C13" gate="G$1" x="66.04" y="213.36" smashed="yes">
 <attribute name="NAME" x="67.564" y="213.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.564" y="208.661" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="66.04" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="58.42" y="226.06" smashed="yes" rot="MR90">
 <attribute name="NAME" x="60.325" y="224.282" size="1.778" layer="95" rot="MR90"/>
@@ -14211,6 +14288,7 @@ Jan Horáček</text>
 <instance part="IC2" gate="G$1" x="104.14" y="231.14" smashed="yes">
 <attribute name="NAME" x="99.06" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.06" y="234.315" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="104.14" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="38.1" y="127" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="40.64" y="124.46" size="1.778" layer="96" rot="MR0"/>
@@ -14218,18 +14296,22 @@ Jan Horáček</text>
 <instance part="RN1" gate="G$1" x="53.34" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.26" y="145.415" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="62.738" y="144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="53.34" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="66.04" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.421" y="130.556" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="61.341" y="130.556" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="66.04" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="66.04" y="137.16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="66.421" y="138.684" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="61.341" y="138.684" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="66.04" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="RN2" gate="G$1" x="76.2" y="147.32" smashed="yes" rot="MR90">
 <attribute name="NAME" x="81.28" y="145.415" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="66.802" y="144.78" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="76.2" y="147.32" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="J2" gate="-1" x="33.02" y="116.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="30.48" y="116.078" size="1.524" layer="95" rot="MR0"/>
@@ -14250,10 +14332,12 @@ Jan Horáček</text>
 <instance part="C6" gate="G$1" x="66.04" y="114.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="66.421" y="115.824" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="61.341" y="115.824" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="66.04" y="114.3" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="66.04" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.421" y="107.696" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="61.341" y="107.696" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="66.04" y="109.22" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="76.2" y="160.02" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="78.74" y="156.21" size="1.778" layer="96" rot="MR90"/>
@@ -14280,18 +14364,22 @@ Jan Horáček</text>
 <instance part="RN3" gate="G$1" x="53.34" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.26" y="61.595" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="62.738" y="60.96" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="53.34" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="66.04" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.421" y="46.736" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="61.341" y="46.736" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="66.04" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="66.04" y="53.34" smashed="yes" rot="MR90">
 <attribute name="NAME" x="66.421" y="54.864" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="61.341" y="54.864" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="66.04" y="53.34" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="RN4" gate="G$1" x="76.2" y="63.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="81.28" y="61.595" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="66.802" y="60.96" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="76.2" y="63.5" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="J4" gate="-1" x="33.02" y="33.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="30.48" y="32.258" size="1.524" layer="95" rot="MR0"/>
@@ -14312,10 +14400,12 @@ Jan Horáček</text>
 <instance part="C14" gate="G$1" x="66.04" y="30.48" smashed="yes" rot="MR90">
 <attribute name="NAME" x="66.421" y="32.004" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="61.341" y="32.004" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="66.04" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="66.04" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.421" y="23.876" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="61.341" y="23.876" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="66.04" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+6" gate="1" x="76.2" y="76.2" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="78.74" y="72.39" size="1.778" layer="96" rot="MR90"/>
@@ -14326,18 +14416,22 @@ Jan Horáček</text>
 <instance part="R3" gate="G$1" x="314.96" y="129.54" smashed="yes">
 <attribute name="NAME" x="311.15" y="131.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="126.238" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="314.96" y="111.76" smashed="yes">
 <attribute name="NAME" x="311.15" y="113.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="108.458" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="314.96" y="93.98" smashed="yes">
 <attribute name="NAME" x="311.15" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="90.678" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="314.96" y="76.2" smashed="yes">
 <attribute name="NAME" x="311.15" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="72.898" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED5" gate="G$1" x="317.5" y="124.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="312.928" y="120.904" size="1.778" layer="95"/>
@@ -14370,10 +14464,12 @@ Jan Horáček</text>
 <instance part="D3" gate="G$1" x="53.34" y="231.14" smashed="yes">
 <attribute name="NAME" x="55.88" y="231.6226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.26" y="233.9086" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="53.34" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="OK2" gate="A" x="332.74" y="127" smashed="yes">
 <attribute name="NAME" x="325.755" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="325.755" y="119.38" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="332.74" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="OK2" gate="B" x="332.74" y="109.22" smashed="yes">
 <attribute name="NAME" x="325.755" y="114.935" size="1.778" layer="95"/>
@@ -14395,18 +14491,22 @@ Jan Horáček</text>
 <instance part="R7" gate="G$1" x="314.96" y="220.98" smashed="yes">
 <attribute name="NAME" x="311.15" y="222.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="217.678" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="314.96" y="203.2" smashed="yes">
 <attribute name="NAME" x="311.15" y="204.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="199.898" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="314.96" y="185.42" smashed="yes">
 <attribute name="NAME" x="311.15" y="186.9186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="182.118" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="314.96" y="167.64" smashed="yes">
 <attribute name="NAME" x="311.15" y="169.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="164.338" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="314.96" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="317.5" y="215.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="312.928" y="212.344" size="1.778" layer="95"/>
@@ -14439,6 +14539,7 @@ Jan Horáček</text>
 <instance part="OK1" gate="A" x="332.74" y="218.44" smashed="yes">
 <attribute name="NAME" x="325.755" y="224.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="325.755" y="210.82" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="332.74" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="OK1" gate="B" x="332.74" y="200.66" smashed="yes">
 <attribute name="NAME" x="325.755" y="206.375" size="1.778" layer="95"/>
@@ -14577,6 +14678,7 @@ Jan Horáček</text>
 <instance part="C16" gate="G$1" x="241.3" y="106.68" smashed="yes">
 <attribute name="NAME" x="242.824" y="107.061" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.824" y="101.981" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="241.3" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="241.3" y="96.52" smashed="yes">
 <attribute name="VALUE" x="238.76" y="93.98" size="1.778" layer="96"/>
