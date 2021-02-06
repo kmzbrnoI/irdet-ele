@@ -21,6 +21,8 @@ PCB is prepared to be automatically assembled in [JLCPCB](https://jlcpcb.com/).
 SMD parts on bottom side should be assembled. Each SMD part has its `LCSC_ITEM`
 attribute set.
 
+Black silkscreen colour is advised.
+
 ## Parameters
 
  * Input voltage: 7–17 V.
