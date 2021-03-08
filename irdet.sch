@@ -14177,7 +14177,7 @@ Based on the following sources:
 <sheet>
 <plain>
 <text x="289.56" y="17.78" size="5.08" layer="97">IR detector</text>
-<text x="374.65" y="5.08" size="2.54" layer="94">v1.2</text>
+<text x="374.65" y="5.08" size="2.54" layer="94">v1.3</text>
 <text x="289.56" y="5.08" size="2.54" layer="97">KMŽ Brno I, LRKV MENDELU
 Jan Horáček
 2020-2021</text>
