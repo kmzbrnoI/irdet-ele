@@ -14043,8 +14043,8 @@ Based on the following sources:
 <attribute name="LCSC_PART" value="C71136"/>
 </part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="100k">
-<attribute name="LCSC_PART" value="C173315"/>
+<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100n">
 <attribute name="LCSC_PART" value="C49478"/>
@@ -14052,8 +14052,8 @@ Based on the following sources:
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n">
 <attribute name="LCSC_PART" value="C49478"/>
 </part>
-<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
-<attribute name="LCSC_PART" value="C29718"/>
+<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="100k">
+<attribute name="LCSC_PART" value="C173315"/>
 </part>
 <part name="J2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14067,8 +14067,8 @@ Based on the following sources:
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="J3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="100k">
-<attribute name="LCSC_PART" value="C173315"/>
+<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
 </part>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n">
 <attribute name="LCSC_PART" value="C49478"/>
@@ -14076,8 +14076,8 @@ Based on the following sources:
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n">
 <attribute name="LCSC_PART" value="C49478"/>
 </part>
-<part name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
-<attribute name="LCSC_PART" value="C29718"/>
+<part name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="100k">
+<attribute name="LCSC_PART" value="C173315"/>
 </part>
 <part name="J4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
