@@ -14101,10 +14101,10 @@ Based on the following sources:
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
 <attribute name="LCSC_PART" value="C17513"/>
 </part>
-<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
+<part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
+<part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
+<part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14128,10 +14128,10 @@ Based on the following sources:
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
 <attribute name="LCSC_PART" value="C17513"/>
 </part>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="YEL"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14172,6 +14172,11 @@ Based on the following sources:
 </part>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="con-malina" deviceset="MVE252-5-V" device=""/>
+<part name="LED9" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="RED"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14694,6 +14699,18 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <instance part="X2" gate="-2" x="27.94" y="210.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.876" y="210.058" size="1.778" layer="95" rot="MR0"/>
 </instance>
+<instance part="LED9" gate="G$1" x="149.86" y="210.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="145.288" y="207.264" size="1.778" layer="95"/>
+<attribute name="VALUE" x="145.288" y="205.105" size="1.778" layer="96"/>
+</instance>
+<instance part="R15" gate="G$1" x="160.02" y="210.82" smashed="yes">
+<attribute name="NAME" x="156.21" y="212.3186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.21" y="207.518" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="160.02" y="210.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND31" gate="1" x="142.24" y="210.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="139.7" y="213.36" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14868,6 +14885,10 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <pinref part="GND30" gate="1" pin="GND"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="99.06" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED9" gate="G$1" pin="C"/>
+<pinref part="GND31" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MISO/OUT1" class="0">
@@ -15771,9 +15792,30 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <junction x="33.02" y="231.14"/>
 </segment>
 </net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<wire x1="165.1" y1="210.82" x2="172.72" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="LED9" gate="G$1" pin="A"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="210.82" x2="154.94" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,172.72,198.12,IC1,VCC,+5V,,,"/>
+<approved hash="104,1,172.72,195.58,IC1,VCC,+5V,,,"/>
+<approved hash="104,1,172.72,223.52,IC1,AVCC,+5V,,,"/>
+<approved hash="104,1,210.82,149.86,ISP1,VCC,+5V,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
