@@ -17628,7 +17628,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="LCSC_PART" value="C45783"/>
 </part>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="68R"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="47R"/>
 </parts>
 <sheets>
 <sheet>
@@ -17642,6 +17642,7 @@ Jan Horáček
 https://creativecommons.org/licenses/by-sa/4.0/
 https://github.com/kmzbrnoI/irdet-ele</text>
 <text x="344.17" y="20.32" size="2.54" layer="94">All</text>
+<text x="194.31" y="113.03" size="1.778" layer="97">← 200 mA</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="195.58" y="208.28" smashed="yes">
