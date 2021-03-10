@@ -14151,21 +14151,29 @@ Based on the following sources:
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC808" value="BC847"/>
 <part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-PNP-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC807-16" value="BC857"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S1" library="current-stabilizers" deviceset="AL5809" device="" value="AL5809-100"/>
 <part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC808" value="BC847"/>
 <part name="T4" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-PNP-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC807-16" value="BC857"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T5" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC808" value="BC847"/>
 <part name="T6" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-PNP-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC807-16" value="BC857"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T7" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC808" value="BC847"/>
 <part name="T8" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-PNP-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="BC807-16" value="BC857"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="22u">
 <attribute name="LCSC_PART" value="C45783"/>
@@ -14177,6 +14185,18 @@ Based on the following sources:
 <attribute name="LCSC_PART" value="C17513"/>
 </part>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<attribute name="LCSC_PART" value="C17513"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -14629,6 +14649,7 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <instance part="R11" gate="G$1" x="187.96" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="191.77" y="100.1014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="191.77" y="104.902" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="187.96" y="101.6" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="180.34" y="88.9" smashed="yes">
 <attribute name="VALUE" x="177.8" y="86.36" size="1.778" layer="96"/>
@@ -14651,6 +14672,7 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <instance part="R12" gate="G$1" x="187.96" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="191.77" y="77.2414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="191.77" y="82.042" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="187.96" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="180.34" y="66.04" smashed="yes">
 <attribute name="VALUE" x="177.8" y="63.5" size="1.778" layer="96"/>
@@ -14666,6 +14688,7 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <instance part="R13" gate="G$1" x="187.96" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="191.77" y="54.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="191.77" y="59.182" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="187.96" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="180.34" y="43.18" smashed="yes">
 <attribute name="VALUE" x="177.8" y="40.64" size="1.778" layer="96"/>
@@ -14681,6 +14704,7 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <instance part="R14" gate="G$1" x="187.96" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="191.77" y="31.5214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="191.77" y="36.322" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="187.96" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="180.34" y="20.32" smashed="yes">
 <attribute name="VALUE" x="177.8" y="17.78" size="1.778" layer="96"/>
@@ -14710,6 +14734,26 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 </instance>
 <instance part="GND31" gate="1" x="142.24" y="210.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="139.7" y="213.36" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R16" gate="G$1" x="167.64" y="96.52" smashed="yes" rot="MR180">
+<attribute name="NAME" x="163.83" y="95.0214" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="163.83" y="99.822" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="167.64" y="96.52" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="R17" gate="G$1" x="167.64" y="73.66" smashed="yes" rot="MR180">
+<attribute name="NAME" x="163.83" y="72.1614" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="163.83" y="76.962" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="167.64" y="73.66" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="167.64" y="50.8" smashed="yes" rot="MR180">
+<attribute name="NAME" x="163.83" y="49.3014" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="163.83" y="54.102" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="167.64" y="50.8" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="R19" gate="G$1" x="167.64" y="27.94" smashed="yes" rot="MR180">
+<attribute name="NAME" x="163.83" y="26.4414" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="163.83" y="31.242" size="1.778" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="167.64" y="27.94" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -15624,38 +15668,38 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 </net>
 <net name="CPUPOW7-8" class="0">
 <segment>
-<pinref part="T7" gate="G$1" pin="B"/>
-<wire x1="175.26" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="172.72" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
 <wire x1="172.72" y1="215.9" x2="165.1" y2="215.9" width="0.1524" layer="91"/>
 <label x="165.1" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="27.94" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
+<label x="160.02" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPUPOW5-6" class="0">
-<segment>
-<pinref part="T5" gate="G$1" pin="B"/>
-<wire x1="175.26" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
-<label x="172.72" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="220.98" y1="200.66" x2="223.52" y2="200.66" width="0.1524" layer="91"/>
 <label x="223.52" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="50.8" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
+<label x="160.02" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPUPOW3-4" class="0">
-<segment>
-<pinref part="T3" gate="G$1" pin="B"/>
-<wire x1="175.26" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
-<label x="172.72" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="220.98" y1="233.68" x2="223.52" y2="233.68" width="0.1524" layer="91"/>
 <label x="223.52" y="233.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="73.66" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
+<label x="160.02" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -15681,14 +15725,14 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 </net>
 <net name="CPUPOW1-2" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="B"/>
-<wire x1="175.26" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
-<label x="172.72" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="220.98" y1="231.14" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
 <label x="223.52" y="231.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="96.52" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="160.02" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -15804,6 +15848,34 @@ https://github.com/kmzbrnoI/irdet-ele</text>
 <pinref part="LED9" gate="G$1" pin="A"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="210.82" x2="154.94" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="T3" gate="G$1" pin="B"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="T1" gate="G$1" pin="B"/>
+<wire x1="172.72" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="T5" gate="G$1" pin="B"/>
+<wire x1="172.72" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="T7" gate="G$1" pin="B"/>
+<wire x1="172.72" y1="27.94" x2="175.26" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
