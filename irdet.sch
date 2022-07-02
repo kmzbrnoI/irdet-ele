@@ -17411,20 +17411,20 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </classes>
 <parts>
 <part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA8" device="-AI" package3d_urn="urn:adsk.eagle:package:4313/2">
-<attribute name="LCSC_PART" value="C14877"/>
+<attribute name="LCSC_PART" value="C16190"/>
 </part>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5V"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ISP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
 <part name="J1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k">
 <attribute name="LCSC_PART" value="C17414"/>
 </part>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5V"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17451,10 +17451,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="LCSC_PART" value="C29718"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="100k">
 <attribute name="LCSC_PART" value="C173315"/>
@@ -17462,10 +17462,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="J2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -17475,10 +17475,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="LCSC_PART" value="C29718"/>
 </part>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="100k">
 <attribute name="LCSC_PART" value="C173315"/>
@@ -17486,10 +17486,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="J4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048" package3d_urn="urn:adsk.eagle:package:8078648/1" value="PSH02-04WG"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100n">
-<attribute name="LCSC_PART" value="C49478"/>
+<attribute name="LCSC_PART" value="C49678"/>
 </part>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
